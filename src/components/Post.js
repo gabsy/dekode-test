@@ -20,8 +20,8 @@ const Post = () => {
                                 Jane Doe
                             </a>
                         </div>
-                        <div className="post-date text-small">
-                            Project Manager Dekode – 5 min read – 2 june
+                        <div className="post-date">
+                            Project Manager Dekode | 5 min read | June 2nd
                         </div>
                         <SocialIcons/>
                     </div>
