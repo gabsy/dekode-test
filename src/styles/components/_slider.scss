@@ -1,0 +1,43 @@
+.swiper-container {
+   margin: 6rem 0;
+}
+
+.swiper-button-prev {
+    left: -3rem;
+    display: none;
+}
+
+.swiper-button-next {
+    left: -3rem;
+    display: none;
+}
+
+.swiper-slide {
+    max-width: 23rem;
+    min-width: 11rem;
+
+    img {
+        width: 100%;
+        max-width: 16.5rem;
+        margin:0 auto 0.5rem;
+    }
+
+    h2 {
+        margin: 0 0 0.75rem;
+    }
+
+    .slide-date {
+        color: var(--color-dark-grey);
+        display: block;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        margin-bottom: 0.75rem;
+        
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 0;
+    }
+}

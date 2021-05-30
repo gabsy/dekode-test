@@ -1,0 +1,38 @@
+.footer {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 3rem 0 0;
+    border-top: 1px solid #dedede;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 3rem;
+
+        li {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    p {
+        margin: 0 0 1.5rem;
+    }
+
+    .logo-footer {
+        margin-bottom: 3rem;
+    }
+
+    .container-fluid {
+        padding: 0; // reseting grid-container unwanted side paddings
+
+        @media (min-width: 62em ) {
+            [class*="col-"] {
+                padding: 0 1.5rem;
+    
+                &:first-of-type {
+                    padding-left: 0.75rem;
+                }
+            }     
+        }  
+    }
+}

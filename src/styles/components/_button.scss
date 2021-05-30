@@ -1,0 +1,38 @@
+.btn,
+.btn:visited {
+    border-radius: 0.5rem;
+    border: 2px solid var(--color-main);
+    background: var(--color-white);
+    color: var(--color-text);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    transition: all var(--transition-duration) var(--transition-effect);
+
+    &:hover,
+    &:focus {
+        background: var(--color-main-light);
+        color: var(--color-text);
+    }
+
+    &:focus {
+        box-shadow: 0px 0px 0.25rem #1E6CF9;
+        outline: none;
+    }
+
+    &:active {
+        box-shadow: 0px 0px 0 0.125rem var(--color-white),0px 0px 0 0.25rem var(--color-main);
+        color: var(--color-text);
+        transition-duration: 0.2s;
+    }
+
+    &:disabled,
+    &[disabled],
+    &.disabled {
+        border-color: #C9C9C9;
+        color: #C9C9C9;
+        pointer-events: none;
+    }
+
+}

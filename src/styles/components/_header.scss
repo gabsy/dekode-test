@@ -1,0 +1,44 @@
+.header {
+    background: var(--color-white);
+    font-weight: var(--font-weight-bold);
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 1.5rem 0 0.5rem;
+    transition: padding 0.4s var(--transition-effect), box-shadow 0.4s var(--transition-effect);
+
+    .inner-block {
+        display: flex;
+        
+        > * {
+            align-self: center;
+        }
+    }
+
+    &[data-scroll="true"] {
+        padding: 0.8rem 0 0.3rem;
+        box-shadow: 0px 4px 8px rgba(#919EA7, 0.15);
+    }
+
+    .search-label {
+        display: none;
+    }
+
+    .logo-header {
+        flex: 1;
+        text-align: center;
+    }
+
+    @media (min-width: 48em) {
+        .logo-header {
+            flex: 0;
+        }
+
+        .search-label {
+            display: inline-block;
+            margin-right: 0.75rem;
+        }
+    }
+}
