@@ -12,13 +12,17 @@
 
 1. Sass Compiler
 
+### Running locally
+
+Just clone the repository or download the ZIP file, and run `npm install`
+
 ### What are the benefits of using React?
 
-- Modularity, and consequently scalability, through reusable components. 
-- Use of Virtual DOM, that results in performance and speed enhancement.
-- Development speed thanks to easy scaffolding with create-react-app, reusable components, big community and lots of ready-to-use solutions.
-- Most popular JS "Framework" ( actually officilly described as Library )
+- Modularity, and consequently scalability, through reusable components 
+- Use of Virtual DOM, that results in performance and speed enhancement
+- Development speed thanks to easy scaffolding with create-react-app, reusable components, big community and lots of ready-to-use solutions
+- Most popular JS "Framework" ( actually officially described as Library )
 
 ### Are there any drawbacks of using React?
 
-As React experience is quite limited at this moment, i would not express any opinions on its disatvantages :)
+As my React experience is quite limited at this moment, i would not express any opinions on its disadvantages :)
