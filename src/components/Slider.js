@@ -10,12 +10,11 @@ SwiperCore.use([Navigation]);
 
 const Slider = () => {
     return (
+
         <Swiper
             spaceBetween = {48}
             slidesPerView = {3}
-            navigation = {true}
-            // freeMode={true}
-            slidesPerView={'auto'}
+            //navigation = {true}
         >
             <SwiperSlide>
                 <SlideContent 

@@ -4,6 +4,12 @@ import Post from './components/Post'
 import Slider from './components/Slider'
 import CtaBlock from './components/CtaBlock'
 import Footer from './components/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+    duration : 600
+});
 
 function App() {
   return (

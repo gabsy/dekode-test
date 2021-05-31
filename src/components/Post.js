@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import "./../styles/components/_post.scss"
 import avatar from './../assets/avatar.png'
 import ocean from './../assets/ocean.jpg'
@@ -5,14 +6,15 @@ import SocialIcons from './SocialIcons'
 import PostFeaturedImg from './PostFeaturedImg'
 
 const Post = () => {
+
     return (
         <article className="content-block">
             <header className="post-header">
-                <h1>Purple circles</h1>
-                <div className="post-intro">
+                <h1 data-aos="fade-up">Purple circles</h1>
+                <div className="post-intro"  data-aos="fade-up" data-aos-delay="200">
                     <p>Purple is closely associated with violet. In optics, purple and violet refer to colors that look similar, but purples are mixtures of red  and blue or violet light.</p>
                 </div>
-                <div className="post-meta inner-block-small">
+                <div className="post-meta inner-block-small"  data-aos="fade-up" data-aos-delay="350">
                     <img src={avatar} className="avatar" alt="Jane Doe"></img>
                     <div className="meta-info">
                         <div className="author">
@@ -27,7 +29,7 @@ const Post = () => {
                     </div>
                 </div>
             </header>
-            <div className="post-body">
+            <div className="post-body"  data-aos="fade-up" data-aos-delay="550">
                 <div className="inner-block-small">
                     <p>
                     Purple is closely associated with violet. In common usage, both refer to colors that are between red and blue in hue, with purples closer to red and violets closer to blue. Similarly, in the traditional painters' color wheel, purple and violet are both placed between red and blue, with purple is closer to red.

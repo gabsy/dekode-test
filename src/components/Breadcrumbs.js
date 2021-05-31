@@ -3,7 +3,7 @@ import { MdChevronRight } from "react-icons/md";
 const Breadcrumbs = () => {
     return (
         
-        <nav className="breadcrumbs" aria-label="breadcrumbs">
+        <nav className="breadcrumbs" aria-label="breadcrumbs" data-aos="fade-down" data-aos-delay="450">
             <ul className="breadcrumbs-list">
                 <li>
                     <a href="/">
