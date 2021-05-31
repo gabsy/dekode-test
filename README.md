@@ -12,6 +12,10 @@
 
 1. Sass Compiler
 
+### Running locally
+
+Just clone the repository or download the ZIP file, and run `npm install`
+
 ### What are the benefits of using React?
 
 - Modularity, and consequently scalability, through reusable components. 
