@@ -6,27 +6,20 @@ body {
 }
 
 h1 {
-    font-size: var(--h1-font-size-mobile);
+    font-size: var(--h1-font-size);
     font-weight: var(--font-weight-medium-bold);
-    line-height: var(--h1-line-height-mobile);
+    line-height: var(--h1-line-height);
     text-align: center;
     margin: 1rem 0 3rem;
-
-    @media (min-width: 48em) {
-        font-size: var(--h1-font-size-desktop);
-        line-height: var(--h1-line-height-desktop);
-    }
 }
 
 h2 {
-    font-size: var(--h2-font-size-mobile);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-weight-medium-bold);
-    line-height: var(--h2-line-height-mobile);
+    line-height: var(--h2-line-height);
     margin: 2rem 0 1.5rem;
 
     @media (min-width: 48em) {
-        font-size: var(--h2-font-size-desktop);
-        line-height: var(--h2-line-height-desktop);
         margin: 3rem 0 1.5rem;
     }
 }

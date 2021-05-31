@@ -1,15 +1,18 @@
 .swiper-container {
    margin: 6rem 0;
+   padding: 0 68px;
 }
 
 .swiper-button-prev {
     left: -3rem;
-    display: none;
+    left: 0;
+    // display: none;
 }
 
 .swiper-button-next {
-    left: -3rem;
-    display: none;
+    right: -3rem;
+    right:0;
+    // display: none;
 }
 
 .swiper-slide {

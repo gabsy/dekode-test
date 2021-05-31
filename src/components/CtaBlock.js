@@ -10,8 +10,8 @@ const CtaBlock = () => {
             </p>
             <div className="btn-container">
                 <Button 
-                    btnLink="/"
-                    btnLabel="Why Teft?"
+                    btnLink = "/"
+                    btnLabel = "Why Teft?"
                 />
             </div>
         </div>
