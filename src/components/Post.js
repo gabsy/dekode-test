@@ -1,4 +1,3 @@
-import { useEffect } from "react"
 import "./../styles/components/_post.scss"
 import avatar from './../assets/avatar.png'
 import ocean from './../assets/ocean.jpg'
