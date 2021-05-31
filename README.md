@@ -14,7 +14,7 @@
 
 ### Running locally
 
-Just clone the repository or download the ZIP file, and run `npm install`
+Just clone the repository or download the ZIP file, and run `npm install` and `npm start`
 
 ### What are the benefits of using React?
 
